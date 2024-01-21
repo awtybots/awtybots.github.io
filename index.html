@@ -96,7 +96,10 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet"> -->
     <!-- Custom styles for this template -->
     <link href="blog/blog.css" rel="stylesheet">
   </head>
@@ -205,9 +208,9 @@
 <main class="container">
   <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
     <div class="col-lg-6 px-0">
-      <h1 class="display-4 fst-italic">Striving for excellence</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+      <h1 class="display-4 fst-italic">Awtybots, roll out!</h1>
+      <p class="lead my-3">With the beginning of the 2024 season, we are in the process of preparing for our first event. Exciting times!</p>
+      <!-- <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p> -->
     </div>
   </div>
 
@@ -215,11 +218,11 @@
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-body-secondary">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+          <strong class="d-inline-block mb-2 text-primary-emphasis">Programming</strong>
+          <h3 class="mb-0">2024 Programming Changes</h3>
+          <div class="mb-1 text-body-secondary">Last updated Jan 20</div>
+          <p class="card-text mb-auto">This year, we have made several changes to how we code and test.</p>
+          <a href="#2024-programming-changes" class="icon-link gap-1 icon-link-hover stretched-link">
             Continue reading
             <svg class="bi"><use xlink:href="#chevron-right"/></svg>
           </a>
@@ -232,17 +235,18 @@
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
-          <h3 class="mb-0">Post title</h3>
+          <strong class="d-inline-block mb-2 text-success-emphasis">Events</strong>
+          <h3 class="mb-0">2024 Events</h3>
           <div class="mb-1 text-body-secondary">Nov 11</div>
-          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-            Continue reading
+          <p class="mb-auto">The 2024 season has started, and we're thrilled to go to some events!</p>
+          <a href="#2024Events" class="icon-link gap-1 icon-link-hover stretched-link">
+            See the events
             <svg class="bi"><use xlink:href="#chevron-right"/></svg>
           </a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <img src="assets/images/competition.jpg" class="img-fluid" width="200" height="250" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" alt="...">
+          <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
         </div>
       </div>
     </div>
@@ -251,14 +255,14 @@
   <div class="row g-5">
     <div class="col-md-8">
       <h3 class="pb-4 mb-4 fst-italic border-bottom">
-        From the Firehose
+        From the Rams
       </h3>
 
-      <article class="blog-post">
-        <h2 class="display-5 link-body-emphasis mb-1">Sample blog post</h2>
-        <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+       <!-- <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" id="2024-programming-changes">2024 Programming Changes</h2>
+        <p class="blog-post-meta">January 20, 2024 by <a>Maxim</a></p>
 
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+        <p>This year, we have decided to utilize the AdvantageKit framework for simulation and testing.</p>
         <hr>
         <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
         <h2>Blockquotes</h2>
@@ -354,36 +358,35 @@
         </table>
 
         <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-      </article>
+      </article> -->
 
       <article class="blog-post">
-        <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
-        <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+        <h2 class="display-5 link-body-emphasis mb-1" id="2024Events">2024 Events</h2>
+        <p class="blog-post-meta">January 20, 2024 by <a>Maxim</a></p>
 
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+        <p>The 2024 season has started! So far, we're sure to go to two events.</p>
         <ul>
-          <li>First list item</li>
-          <li>Second list item with a longer description</li>
-          <li>Third list item to close it out</li>
+          <li><a href="https://www.thebluealliance.com/event/2024txkat">FIT District Katy Event</a> - February 29 to March 2, Week 1, Leonard E Merrell Center in Katy, TX, USA.</li>
+          <li><a href="https://www.thebluealliance.com/event/2024txsan">FIT District San Antonio Event</a> - March 14 to March 16, Week 3, Freeman Coliseum in San Antonio, TX, USA.</li>
         </ul>
-        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+        <p>This list will be updated as the season progresses.</p>
       </article>
 
-      <nav class="blog-pagination" aria-label="Pagination">
+      <!-- <nav class="blog-pagination" aria-label="Pagination">
         <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
         <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
-      </nav>
+      </nav> -->
 
     </div>
 
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
-        <div class="p-4 mb-3 bg-body-tertiary rounded">
+        <!-- <div class="p-4 mb-3 bg-body-tertiary rounded">
           <h4 class="fst-italic">About</h4>
           <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
-        </div>
+        </div> -->
 
-        <div>
+        <!-- <div>
           <h4 class="fst-italic">Recent posts</h4>
           <ul class="list-unstyled">
             <li>
@@ -414,9 +417,9 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <div class="p-4">
+        <!-- <div class="p-4">
           <h4 class="fst-italic">Archives</h4>
           <ol class="list-unstyled mb-0">
             <li><a href="#">March 2021</a></li>
@@ -432,14 +435,14 @@
             <li><a href="#">May 2020</a></li>
             <li><a href="#">April 2020</a></li>
           </ol>
-        </div>
+        </div> -->
 
         <div class="p-4">
           <h4 class="fst-italic">Elsewhere</h4>
           <ol class="list-unstyled">
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
+            <li><a href="https://github.com/awtybots">GitHub</a></li>
+            <!-- <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li> -->
           </ol>
         </div>
       </div>
@@ -449,7 +452,7 @@
 </main>
 
 <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+  <p>Awtybots ©2023-2024</p>
   <p class="mb-0">
     <a href="#">Back to top</a>
   </p>
