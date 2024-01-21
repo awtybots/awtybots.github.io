@@ -1,3 +1,3 @@
-# Awtybots site
+# The Awtybots site.
 
-static bootstrap site
+A static site hosted through Github Pages.
