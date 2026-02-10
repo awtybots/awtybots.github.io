@@ -10,6 +10,13 @@ const backBtn = document.getElementById('back');
 
 const post = document.getElementById("post");
 
+function calcDate(date, days)
+{
+    const result = new Date(date);
+    result.setDate(result.getDate() + days);
+    return result;
+}
+
 async function loadRecap(day)
 {
     const res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day ${day}.md`);
@@ -30,6 +37,14 @@ function addPost(dayNum, text)
     title.className = "display-5 link-body-emphasis mb-1";
     title.id = "recap-post";
     article.appendChild(title);
+
+    timestamp = document.createElement('p');
+    timestamp.className = 'blog-post-meta';
+    date = new Date(2026, 0, 9);
+    timestamp.innerText = calcDate(date, dayNum).toDateString();
+    console.log(dayNum);
+    article.appendChild(timestamp);
+
     article.appendChild(document.createElement('hr'));
 
     const rec = document.createElement('div');
