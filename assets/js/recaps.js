@@ -9,10 +9,11 @@ const nextBtn = document.getElementById('next');
 const backBtn = document.getElementById('back');
 
 const post = document.getElementById("post");
+console.log(marked)
 
 async function loadRecap(day)
 {
-    const res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day ${day}.txt`);
+    const res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day ${day}.md`);
     if(!res.ok) console.log('fetch failed');
 
     const text = await res.text();
@@ -32,8 +33,8 @@ function addPost(dayNum, text)
     article.appendChild(title);
     article.appendChild(document.createElement('hr'));
 
-    const rec = document.createElement('p');
-    rec.innerText = text;
+    const rec = document.createElement('div');
+    rec.innerHTML = marked.parse(text);
 
     article.appendChild(rec)
     
