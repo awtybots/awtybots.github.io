@@ -9,7 +9,6 @@ const nextBtn = document.getElementById('next');
 const backBtn = document.getElementById('back');
 
 const post = document.getElementById("post");
-console.log(marked)
 
 async function loadRecap(day)
 {

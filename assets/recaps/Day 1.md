@@ -1,4 +1,4 @@
-Rebuilt was officially revealed and the game looks really fun! We have
+- Rebuilt was officially revealed and the game looks really fun! We have
 our first ball shooting game since 2022 and our first big obstacle game
 since 2016. The cool twist this year is you can't score all the time.
 The scoring is broken into halves and Auto determines who scores first.
