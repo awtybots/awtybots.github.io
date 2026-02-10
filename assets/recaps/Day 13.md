@@ -27,3 +27,5 @@ to mount them to the robot. That will be the challenge tomorrow as we
 try to assemble it and hopefully mount it onto the robot. Shooter PID
 made some progress as we were able to shoot 15/16 fuel consistently.
 We'll focus on fine tuning that and getting the rate of fire up as well.
+
+![](2026-02-10-11-08-36.png)

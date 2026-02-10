@@ -43,12 +43,13 @@ function addPost(dayNum, text)
 
 nextBtn.addEventListener('click', async () => 
 {
+    day++;
     if(day == days.length - 1)
     {
-        day = days.length - 1;
+        nextBtn.style.display = 'none';
     }
-    else day++;
 
+    backBtn.style.display = '';
     dayNum = days[day];
 
     text = await loadRecap(dayNum);
@@ -58,12 +59,13 @@ nextBtn.addEventListener('click', async () =>
 
 backBtn.addEventListener('click', async () => 
 {
+    day--;
     if(day == 0)
     {
-        day = 0;
+        backBtn.style.display = 'none';
     }
-    else day--;
 
+    nextBtn.style.display = '';
     dayNum = days[day];
 
     text = await loadRecap(dayNum);
@@ -76,4 +78,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     text = await loadRecap(days[day]);
 
     addPost(days[day], text);
+
+    nextBtn.style.display = 'none';
 });
