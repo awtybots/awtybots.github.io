@@ -7,6 +7,8 @@ let day = days.length - 1;
 
 const nextBtn = document.getElementById('next');
 const backBtn = document.getElementById('back');
+const nextAllBtn = document.getElementById('next-all');
+const backAllBtn = document.getElementById('back-all');
 
 const post = document.getElementById("post");
 
@@ -61,10 +63,12 @@ nextBtn.addEventListener('click', async () =>
     day++;
     if(day == days.length - 1)
     {
-        nextBtn.style.display = 'none';
+        nextBtn.disabled = true;
+        nextAllBtn.disabled = true;
     }
 
-    backBtn.style.display = '';
+    backBtn.disabled = false;
+    backAllBtn.disabled = false;
     dayNum = days[day];
 
     text = await loadRecap(dayNum);
@@ -77,10 +81,46 @@ backBtn.addEventListener('click', async () =>
     day--;
     if(day == 0)
     {
-        backBtn.style.display = 'none';
+        backBtn.disabled = true;
+        backAllBtn.disabled = true;
     }
 
-    nextBtn.style.display = '';
+    nextBtn.disabled = false;
+    nextAllBtn.disabled = false;
+    dayNum = days[day];
+
+    text = await loadRecap(dayNum);
+
+    addPost(dayNum, text);
+});
+
+backAllBtn.addEventListener('click', async () => 
+{
+    day = 0;
+
+    backBtn.disabled = true;
+    backAllBtn.disabled = true;
+
+    nextBtn.disabled = false;
+    nextAllBtn.disabled = false;
+    
+    dayNum = days[day];
+
+    text = await loadRecap(dayNum);
+
+    addPost(dayNum, text);
+});
+
+nextAllBtn.addEventListener('click', async () => 
+{
+    day = days.length - 1;
+
+    nextBtn.disabled = true;
+    nextAllBtn.disabled = true;
+
+    backBtn.disabled = false;
+    backAllBtn.disabled = false;
+    
     dayNum = days[day];
 
     text = await loadRecap(dayNum);
@@ -94,5 +134,6 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     addPost(days[day], text);
 
-    nextBtn.style.display = 'none';
+    nextBtn.disabled = true;
+    nextAllBtn.disabled = true;
 });

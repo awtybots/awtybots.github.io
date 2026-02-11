@@ -8,7 +8,7 @@ from 2017 have.
 
 # Shooter 
 
-- #The shooter was the other prototype we were hoping to test out
+- The shooter was the other prototype we were hoping to test out
 today but we ran into some hiccups in the building of it. We got around
 90% of the way done with it but we will have to redo it tomorrow as the
 shooter motors don't mount correctly.

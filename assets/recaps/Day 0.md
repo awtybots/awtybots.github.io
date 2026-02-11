@@ -1,4 +1,4 @@
-‘Twas the night before Kickoff, and all through the shop,
+> ‘Twas the night before Kickoff, and all through the shop,
 Not a robot was moving, not even a drop
 Of oil on the floor; tools were put away tight,
 For the game reveal coming tomorrow at light.

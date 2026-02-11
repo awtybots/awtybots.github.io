@@ -1,15 +1,16 @@
 Today was decision day. There was a lot of discussion on the different
 subsystems and here's what we decided:
 
-# Drivebase: 27x27 - Short
+## Drivebase: 27x27 - Short
 
-# Intake: Over the bumper
+## Intake: Over the bumper
 
-# Shooter: Dual Shooter
+## Shooter: Dual Shooter
 
-# Hopper: Roller Hopper (Cranberry Alarm)
+## Hopper: Roller Hopper (Cranberry Alarm)
 
-# Climber: Traversal Climber (Climber in a box-esqe)
+## Climber: Traversal Climber (Climber in a box-esqe)
+
 
 # Drivebase 
 
