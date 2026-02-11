@@ -34,6 +34,13 @@ const thai_documents = new Map(
     ]
 );
 
+const mandarin_documents = new Map(
+    [
+        ['Mandarin_Mechanical.pdf', 'Mandarin Mechanical'],
+        ['Mandarin_Electrical.pdf', 'Mandarin Electrical']
+    ]
+);
+
 function addLink(pdf, text)
 {
 
@@ -91,6 +98,9 @@ languageDropdown.addEventListener('change', (event) =>
             break;
         case 'Thai':
             documents_to_iterate = thai_documents;
+            break;
+        case 'Mandarin':
+            documents_to_iterate = mandarin_documents;
             break;
     }
 
