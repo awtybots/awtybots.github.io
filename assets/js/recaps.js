@@ -45,7 +45,6 @@ function addPost(dayNum, text)
     timestamp.className = 'blog-post-meta';
     date = new Date(2026, 0, 9);
     timestamp.innerText = calcDate(date, dayNum).toDateString() + " by Xavier Eldridge";
-    console.log(dayNum);
     article.appendChild(timestamp);
 
     article.appendChild(document.createElement('hr'));
