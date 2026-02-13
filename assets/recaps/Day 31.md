@@ -15,4 +15,13 @@ We haven’t touched this much since electrical was working on the robot. One of
 
 - The climber was cut and the assembly started at the end of the meeting. Tomorrow, we should have some metal that we can cut on our water jet for the plates. Hopefully we can run the climber tomorrow and see how that works
 
+![Random Picture Of Robot 1](/assets/images/recap_images/34_1.jpg)
+![Random Picture Of Robot 2](/assets/images/recap_images/34_2.jpg)
+![Random Picture Of Robot 3](/assets/images/recap_images/34_3.jpg)
+![Random Picture Of Robot 4](/assets/images/recap_images/34_4.jpg)
+
 The goal tomorrow will be to get the robot climbing and driving and shooting. We think this week will be big for us to accomplish a lot of these goals. 
+
+
+![Belt Organizers](/assets/images/recap_images/belts.jpg)
+Check out the new belt holders/organizers! Now to make them for our HTD belts! 🙂

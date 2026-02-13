@@ -25,3 +25,5 @@ Good things happened today. But also a LOT of bad things happened as well thatâ€
 
 Overall, today was a good day at identifying issues and problems we wouldnâ€™t be able to see until the robot is together. The bad part is we need to have it finished fully by Friday to meet our deadline and there are still a lot of questions and potential changes needed to achieve this goal. 
 
+![Hopper 1](/assets/images/recap_images/33_1.jpg)
+![Hopper 2](/assets/images/recap_images/33_2.jpg)
