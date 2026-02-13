@@ -4,7 +4,7 @@ const appendArea = document.getElementById("translate-documents");
 const spanish_documents = new Map(
     [
         ['Spanish_Mechanical_1.pdf', 'Spanish Mechanical'],
-        ['Spanish_Mechanical_Electrical_1.pdf', 'Spanish Mechanical Electrical 1']
+        ['Spanish_Mechanical_Electrical_1.pdf', 'Spanish Mechanical Electrical']
     ]
 );
 
