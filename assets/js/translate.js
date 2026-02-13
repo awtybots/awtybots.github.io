@@ -3,8 +3,7 @@ const appendArea = document.getElementById("translate-documents");
 
 const spanish_documents = new Map(
     [
-        ['Spanish_Mechanical_1.pdf', 'Spanish Mechanical 1'],
-        ['Spanish_Mechanical_2.pdf', 'Spanish Mechanical 2'],
+        ['Spanish_Mechanical_1.pdf', 'Spanish Mechanical'],
         ['Spanish_Mechanical_Electrical_1.pdf', 'Spanish Mechanical Electrical 1']
     ]
 );
@@ -76,8 +75,6 @@ function addLink(pdf, text)
 
 languageDropdown.addEventListener('change', (event) =>
 {
-    // appendArea.insertAdjacentHTML('beforeend', `<p>${event.target.value}</p>`);
-
     documents = document.createElement('div');
 
     let documents_to_iterate = spanish_documents;
