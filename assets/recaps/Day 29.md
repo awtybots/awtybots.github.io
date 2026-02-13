@@ -6,9 +6,14 @@ Motors, motors and more motors
 
 - When we mounted the shooter with the twindexer, we noticed an opening between the two that might be problematic. Today in the little testing we did, our thoughts were right. We will want to make some changes and adjustments to ensure that we fix that before we start ramping up testing.
 
+![Shooter Cad](/assets/images/recap_images/29_3.png)
+
 # Intake
 
 - The intake was finally finished today but before we looked to mount it on the robot, we found a key issue that forced us to make a change. The powered bottom roller can’t work due to the belt path. When the intake is stowed, the pulley is on one side of the shaft, and when it’s extended, the belt has to be on the other side. Meaning the belt would have to “phase” through the shaft in order for it to work. That’s not possible so we had to remove the belt for now. With how the intake has a 4 motor system, redesigning the intake is an option, but for now, we want to see if we can make some minor adjustments with the motors to see if it will still work like we want it too. 
+
+![Intake Extended](/assets/images/recap_images/29_1.png)
+![Intkae Stowed](/assets/images/recap_images/29_2.png)
 
 # Hopper
 

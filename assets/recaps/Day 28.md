@@ -11,4 +11,8 @@ Today was a good day. 2 of the 3 subsystems are “mounted” to the frame and G
 # Twindexer
 
 - The updated compression works very well. Next steps will be to see how it works with the shooter. We should be able to test that out tomorrow once the shooter gets mounted fully.
+
 Tomorrow should be exciting!! 
+
+![Robot Pic 1](/assets/images/recap_images/28_1.jpg)
+![Robot Pic 2](/assets/images/recap_images/28_2.jpg)
