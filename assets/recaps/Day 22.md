@@ -34,9 +34,9 @@ some issues but we think it will be worked out quickly by Monday.
 
 # Goals for the Week 
 
-- We want to have a fully functioning practice robot by
-Saturday. That's going to require a lot of work from everyone to get
-there but with the CAD being finalized tomorrow, we should be able to
+- **We want to have a fully functioning practice robot by Saturday**. 
+That's going to require a lot of work from everyone to get
+there but with the **CAD being finalized tomorrow**, we should be able to
 come in and cut parts Monday and start assembly after school (fingers
 crossed). We think this goal is achievable and will set us up greatly
 going into our winter break the following week.
