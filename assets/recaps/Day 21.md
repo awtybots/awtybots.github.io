@@ -23,6 +23,6 @@ work and clean up so that the final version can be, well, final.
 
 Lastly, the results are in. The name of this year's robot is...
 
-## Goldfire!!
+# Goldfire!!
 
 ![Goldfire](https://static.wikia.nocookie.net/transformers-earth-wars/images/d/d0/Goldfire.png)

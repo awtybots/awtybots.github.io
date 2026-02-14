@@ -23,7 +23,7 @@ Good things happened today. But also a LOT of bad things happened as well that�
 - The bright spot today was the climber looks to be a big success. We have to adjust some geometry of the mounting (my fault. It should have been mounted 180 as it is in CAD) and creating a new hook. We managed to climb 99% of the way today. 3 of the 4 wheels got off the ground once we fixed the slipping issue we were having at the beginning of testing. We then raised the climbing structure 1 inch and the robot successfully climbed. This means we just need to be able to retract the climber an additional inch to have a solid climb. We started working on the geometry by the end of the meeting so we can fix that tomorrow or Friday.
 
 
-Overall, today was a good day at identifying issues and problems we wouldn’t be able to see until the robot is together. The bad part is we need to have it **finished fully by Friday** to meet our deadline and there are still a lot of questions and potential changes needed to achieve this goal. 
+Overall, today was a good day at identifying issues and problems we wouldn’t be able to see until the robot is together. The bad part is we need to have it finished fully by Friday to meet our deadline and there are still a lot of questions and potential changes needed to achieve this goal. 
 
 ![Hopper 1](/assets/images/recap_images/33_1.jpg)
 ![Hopper 2](/assets/images/recap_images/33_2.jpg)
