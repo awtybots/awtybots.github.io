@@ -1,4 +1,4 @@
-# Weekly Mandatory Meetins Increase
+# Weekly Mandatory Meetings Increase
 
 - Active Members: 2 -> 3 Mandatory meetings per week
 - Leadership Members: 3 -> 3 Mandatory meetings per week
