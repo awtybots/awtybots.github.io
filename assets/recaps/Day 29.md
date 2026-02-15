@@ -22,4 +22,5 @@ Motors, motors and more motors
 # Electrical
 
 - Electrical was hard at work today wiring up all the motors and running wire correctly on the brainpan. We got to the shooter and ran into some CAN issues but managed to run it a little before we left. We’ll finish up and address them on Monday so we can get the robot working.
+
 Even though the robot didn’t do what we wanted it to do today, we still made progress and are looking forward to getting a lot of work done this week due to it being winter break. We should achieve a lot of our goals this week and get started on some good testing.

@@ -1,3 +1,5 @@
+No pictures today as today was more about fixing than making progress.
+
 # Intake
 
 - We had to replace some plates on the intake to fix our initial issue with the phasing. That issue looks to be resolved so tomorrow, we hope to run the intake through some tests and see how it fairs.

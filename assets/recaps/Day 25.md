@@ -11,4 +11,5 @@ DRIVE WORKS!!! Well sort of. The programming team worked today and finally got t
 # Intake
 
 - Let’s all welcome the intake back to the recaps. Today we cut the plates to start building the 4-bar intake. We will try to start putting it together tomorrow alongside mounting the twindexer to the robot base.
+
 Starting tomorrow, the practice robot should all start coming together and start looking like what we have in CAD. We still should be on track to meet our goal of a working practice robot this Saturday so let’s keep it going!
