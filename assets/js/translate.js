@@ -63,7 +63,7 @@ function addLink(pdf, text)
     link.href = `assets/project-translate-documents/${pdf}`;
     link.target = '_blank';
     link.innerText = 'View PDF';
-    link.className = 'icon-link gap-1 icon-link-hover stretched-link';
+    link.className = 'icon-link gap-1 icon-link-hover';
 
 
     d3.appendChild(h3);
@@ -76,7 +76,7 @@ function addLink(pdf, text)
         linkM.href = `assets/project-translate-documents/Spanish_Mechanical_2.pdf`;
         linkM.target = '_blank';
         linkM.innerText = 'View V2 PDF';
-        linkM.className = 'icon-link gap-1 icon-link-hover stretched-link';
+        linkM.className = 'icon-link gap-1 icon-link-hover';
 
         d3.appendChild(linkM);
     }
