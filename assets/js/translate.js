@@ -65,8 +65,22 @@ function addLink(pdf, text)
     link.innerText = 'View PDF';
     link.className = 'icon-link gap-1 icon-link-hover stretched-link';
 
+
     d3.appendChild(h3);
     d3.appendChild(link);
+
+    if(text === "Spanish Mechanical")
+    {
+        const linkM = document.createElement('a');
+
+        linkM.href = `assets/project-translate-documents/Spanish_Mechanical_2.pdf`;
+        linkM.target = '_blank';
+        linkM.innerText = 'View V2 PDF';
+        linkM.className = 'icon-link gap-1 icon-link-hover stretched-link';
+
+        d3.appendChild(linkM);
+    }
+
 
     d2.appendChild(d3);
     d1.appendChild(d2);
