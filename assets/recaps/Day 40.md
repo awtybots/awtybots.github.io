@@ -10,10 +10,10 @@ Programming was the main point today as we got a lot of things working that weâ€
 
 - The intake was 98% finished by the end of the meeting. There were a lot of hiccups along the way that slowed the assembly down but itâ€™s pretty much assembled. We will want to test it first thing tomorrow so we can finally get this monkey off of our back.
 
-![Six Seven Intake](/assets/images/recap_images/40_1.jpg)
+![Six Seven Intake](/assets/images/recap_images/40_2.jpg)
 
 # Competition robot \- 25% done (correct percentage this time)
 
 The competition robot got the brainpan mounted with majority of the twindexer parts added. We just need need to get the omni wheel system done and it should be good to go.
 
-![Comp Robot](/assets/images/recap_images/40_2.jpg)
+![Comp Robot](/assets/images/recap_images/40_1.jpg)
