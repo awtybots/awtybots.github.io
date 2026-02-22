@@ -41,6 +41,12 @@ const mandarin_documents = new Map(
     ]
 );
 
+const french_documents = new Map(
+    [
+        ['French_Mechanical.pdf', 'French Mechanical']
+    ]
+);
+
 function addLink(pdf, text)
 {
 
@@ -113,6 +119,9 @@ languageDropdown.addEventListener('change', (event) =>
             break;
         case 'Mandarin':
             documents_to_iterate = mandarin_documents;
+            break;
+        case 'French':
+            documents_to_iterate = french_documents;
             break;
     }
 
