@@ -1,4 +1,4 @@
-# 18 days until McAllen
+# 17 days until McAllen
 
 Today we didn’t really achieve too much on the practice robot. We found that there are some mechanical issues with the intake and that is really what is holding us back at this point.
 

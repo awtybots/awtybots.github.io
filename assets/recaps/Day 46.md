@@ -1,4 +1,4 @@
-# 17 days until McAllen
+# 16 days until McAllen
 
 Our progress today was hindered by machinery issues. The good thing is we managed to keep busy working on other tasks like preparing documentation for awards.
 
