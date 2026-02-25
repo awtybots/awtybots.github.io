@@ -1,13 +1,11 @@
-# 17 days until McAllen
+# 18 days until McAllen
 
-Our progress today was hindered by machinery issues. The good thing is we managed to keep busy working on other tasks like preparing documentation for awards.
+Today we didn’t really achieve too much on the practice robot. We found that there are some mechanical issues with the intake and that is really what is holding us back at this point.
 
 # Intake
 
-- We redesigned the intake to have a more shallow angle. Our initial angle was 19 degrees. We wanted to get it around 8 but with our current swerve module set up, we were only able to get down to 12.5. We hope this works as this intake has been a thorn in our side from day 1\. 
-
-- Unfortunately, our CNC broke the 2 bits we use to cut polycarbonate so we had to find alternatives and that took longer than expected. We managed to cut all the parts out eventually but that took the whole meeting so assembly didn’t get to finish.
+- We broke the second 3D printed gear for the linear slide today. We kind of knew that was going to happen so we weren’t too stressed about it. The big issue was that it would not extend or retract like we need it to. We had a 3:1 reduction on the motor and increased it to 5:1 with a little more luck. We tried 9:1 and while it moved, it still wasn’t working properly. It seems to be a weight distribution issue and maybe some geometry with the gears moving the slide. Tomorrow is going to be an important day as we are getting closer and closer to our competitions and it feels like we’re going to start off on the wrong foot.
 
 # Competition robot \- 55% done
 
-- We’re still at 55% but we did more electrical on the robot so we are still progressing to have this finished in time for our events this weekend. We also started 3D printing more limelight mounts and additional hopper things to help with our consistency of the hopper. 
+- We started wiring up the competition robot today. We are going to Texas Torque for a Week 0 scrimmage and then to Pearadox for a pre-inspection event this weekend and we really want to bring the competition robot and get it tested. It is achievable, we just need to get the intake finished. Once that’s done, the robot assembly shouldn’t take very long. 
