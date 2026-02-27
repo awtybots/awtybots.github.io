@@ -7,7 +7,6 @@ Today was a breakthrough day for us. We identified what we initially thought was
 - When making changes to the intake, one thing we discovered that we hadn’t looked at was the jack-shaft touching the drive base frame and causing some resistance. We took that a part and noticed that was indeed an issue. So we started our meeting by addressing that, thinking it would solve the problem. Turns out it didn’t, but the motor moved a lot more freely than it did before the change but the intake was still not working. We upped the gear ratio and the intake finally worked. There are a lot of patches to fix some intolerances but it worked and collected 50 fuel on it’s own unassisted. The next step is to make some additional adjustments and assemble the intake for the competition robot.
 
 ![Picture](assets/images/recap_images/48_1.jpg)
-
 ![Picture](assets/images/recap_images/48_2.jpg)
 
 # Competition robot \- 60% done
