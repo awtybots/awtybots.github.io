@@ -52,7 +52,7 @@ function addLink(pdf, text)
 
 
     const d1 = document.createElement('div');
-    d1.className = 'col_md_6';
+    d1.className = 'col-md-12';
 
     const d2 = document.createElement('div');
     d2.className = 'row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative';
@@ -69,6 +69,7 @@ function addLink(pdf, text)
     link.href = `assets/project-translate-documents/${pdf}`;
     link.target = '_blank';
     link.innerText = 'View PDF';
+    if(text === "Spanish Mechanical") link.innerText = 'View V1 PDF';
     link.className = 'icon-link gap-1 icon-link-hover';
 
 
@@ -86,6 +87,8 @@ function addLink(pdf, text)
 
         d3.appendChild(linkM);
     }
+
+    
 
 
     d2.appendChild(d3);
