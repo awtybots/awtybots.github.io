@@ -1,7 +1,7 @@
 let days = 
 [
     0, 1, 3, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 31, 
-    32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49
+    32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 51
 ];
 
 let day = days.length - 1;
@@ -22,7 +22,14 @@ function calcDate(date, days)
 
 async function loadRecap(day)
 {
+    if(day == 51)
+    {
+        const res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day 50-51.md`);
+    }
+    else
+    {
     const res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day ${day}.md`);
+    }
     if(!res.ok) console.log('fetch failed');
 
     const text = await res.text();
@@ -36,7 +43,7 @@ function addPost(dayNum, text)
 
     const title = document.createElement('h2');
 
-    title.innerText =  `Day ${dayNum}`;
+    title.innerText =  (day == 51) ? "Day 50-51" : `Day ${dayNum}`;
     title.className = "display-5 link-body-emphasis mb-1";
     title.id = "recap-post";
     article.appendChild(title);
