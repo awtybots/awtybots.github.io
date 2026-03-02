@@ -22,13 +22,10 @@ function calcDate(date, days)
 
 async function loadRecap(day)
 {
-    if(day == 51)
+    res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day 50-51.md`);
+    if(day != 51)
     {
-        const res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day 50-51.md`);
-    }
-    else
-    {
-    const res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day ${day}.md`);
+        res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day ${day}.md`);
     }
     if(!res.ok) console.log('fetch failed');
 
