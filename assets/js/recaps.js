@@ -40,7 +40,7 @@ function addPost(dayNum, text)
 
     const title = document.createElement('h2');
 
-    title.innerText =  (day == 51) ? "Day 50-51" : `Day ${dayNum}`;
+    title.innerText =  (dayNum == 51) ? "Day 50-51" : `Day ${dayNum}`;
     title.className = "display-5 link-body-emphasis mb-1";
     title.id = "recap-post";
     article.appendChild(title);
@@ -48,7 +48,7 @@ function addPost(dayNum, text)
     timestamp = document.createElement('p');
     timestamp.className = 'blog-post-meta';
     date = new Date(2026, 0, 9);
-    timestamp.innerText = calcDate(date, dayNum).toDateString() + " by Xavier Eldridge";
+    timestamp.innerText = calcDate(date, dayNum).toDateString() + " by Xavier Eldridge (and Ishaan 🤩)";
     article.appendChild(timestamp);
 
     article.appendChild(document.createElement('hr'));
