@@ -51,7 +51,7 @@ const japanese_documents = new Map(
     [
         ['Japanese_Mechanical.pdf', 'Japanese Mechanical'],
         ['Japanese_Electrical.pdf', 'Japanese Electrical'],
-        ['Japanese_Cad.pdf', 'Japanese CAD']
+        ['Japanese_CAD.pdf', 'Japanese CAD']
     ]
 );
 
