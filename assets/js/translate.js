@@ -47,6 +47,14 @@ const french_documents = new Map(
     ]
 );
 
+const japanese_documents = new Map(
+    [
+        ['Japanese_Mechanical.pdf', 'Japanese Mechanical'],
+        ['Japanese_Electrical.pdf', 'Japanese Electrical'],
+        ['Japanese_CAD.pdf', 'Japanese CAD']
+    ]
+);
+
 function addLink(pdf, text)
 {
 
@@ -125,6 +133,9 @@ languageDropdown.addEventListener('change', (event) =>
             break;
         case 'French':
             documents_to_iterate = french_documents;
+            break;
+        case 'Japanese':
+            documents_to_iterate = japanese_documents;
             break;
     }
 
