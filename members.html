@@ -122,10 +122,33 @@
             display: block !important;
         }
 
-        #flags img {
-            width: 171px;
-            height: 90px;
-        }
+        .marquee
+      {
+        overflow: hidden;
+        width: 100%;
+      }
+
+      .marquee-content
+      {
+        display: flex;
+        width: max-content;
+        align-items: center;
+        gap: 5px;
+        animation: scroll 20s linear infinite;
+      }
+
+      .marquee-content img
+      {
+        height: 90px;
+        width: auto;
+        flex: 0 0 auto;
+      }
+
+      @keyframes scroll 
+      {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+      }
     </style>
 
 
@@ -243,31 +266,71 @@
             </div>
         </header>
 
-        <marquee id="flags" scrollamount="20">
-            <img src="assets/images/flags/usa.jpg">
-            <img src="assets/images/flags/india.avif">
-            <img src="assets/images/flags/poland.png">
-            <img src="assets/images/flags/uk.jpg">
-            <img src="assets/images/flags/syria.webp">
-            <img src="assets/images/flags/thailand.jpg">
-            <img src="assets/images/flags/canada.avif">
-            <img src="assets/images/flags/armenia.png">
-            <img src="assets/images/flags/china.png">
-            <img src="assets/images/flags/venezuela.avif">
-            <img src="assets/images/flags/spain.avif">
-            <img src="assets/images/flags/nether.png">
-            <img src="assets/images/flags/malaysia.jpg">
-            <img src="assets/images/flags/pakistan.png">
-            <img src="assets/images/flags/russia.png">
-            <img src="assets/images/flags/singapore.avif">
-            <img src="assets/images/flags/australia.png">
-            <img src="assets/images/flags/andorra.png">
-            <img src="assets/images/flags/southkorea.avif">
-            <img src="assets/images/flags/austria.png">
-            <img src="assets/images/flags/germany.avif">
-            <img src="assets/images/flags/colombia.png">
-            <img src="assets/images/flags/pride.png">
-        </marquee>
+        <div  class="marquee">
+    <div class="marquee-content">
+      <img src="assets/images/flags/usa.jpg">
+      <img src="assets/images/flags/india.avif">
+      <img src="assets/images/flags/poland.png">
+      <img src="assets/images/flags/uk.jpg">
+      <img src="assets/images/flags/syria.webp">
+      <img src="assets/images/flags/thailand.jpg">
+      <img src="assets/images/flags/canada.avif">
+      <img src="assets/images/flags/armenia.png">
+      <img src="assets/images/flags/china.png">
+      <img src="assets/images/flags/venezuela.avif">
+      <img src="assets/images/flags/spain.avif">
+      <img src="assets/images/flags/nether.png">
+      <img src="assets/images/flags/malaysia.jpg">
+      <img src="assets/images/flags/pakistan.png">
+      <img src="assets/images/flags/russia.png">
+      <img src="assets/images/flags/singapore.avif">
+      <img src="assets/images/flags/australia.png">
+      <img src="assets/images/flags/andorra.png">
+      <img src="assets/images/flags/southkorea.avif">
+      <img src="assets/images/flags/austria.png">
+      <img src="assets/images/flags/germany.avif">
+      <img src="assets/images/flags/colombia.png">
+      <img src="assets/images/flags/panama.webp">
+      <img src="assets/images/flags/argentina.png">
+      <img src="assets/images/flags/phillipines.png">
+      <img src="assets/images/flags/vietnam.webp">
+      <img src="assets/images/flags/switzerland.avif">
+      <img src="assets/images/flags/italy.avif">
+      <img src="assets/images/flags/iran.jpg">
+      <img src="assets/images/flags/pride.png">
+
+      <img src="assets/images/flags/usa.jpg">
+      <img src="assets/images/flags/india.avif">
+      <img src="assets/images/flags/poland.png">
+      <img src="assets/images/flags/uk.jpg">
+      <img src="assets/images/flags/syria.webp">
+      <img src="assets/images/flags/thailand.jpg">
+      <img src="assets/images/flags/canada.avif">
+      <img src="assets/images/flags/armenia.png">
+      <img src="assets/images/flags/china.png">
+      <img src="assets/images/flags/venezuela.avif">
+      <img src="assets/images/flags/spain.avif">
+      <img src="assets/images/flags/nether.png">
+      <img src="assets/images/flags/malaysia.jpg">
+      <img src="assets/images/flags/pakistan.png">
+      <img src="assets/images/flags/russia.png">
+      <img src="assets/images/flags/singapore.avif">
+      <img src="assets/images/flags/australia.png">
+      <img src="assets/images/flags/andorra.png">
+      <img src="assets/images/flags/southkorea.avif">
+      <img src="assets/images/flags/austria.png">
+      <img src="assets/images/flags/germany.avif">
+      <img src="assets/images/flags/colombia.png">
+      <img src="assets/images/flags/panama.webp">
+      <img src="assets/images/flags/argentina.png">
+      <img src="assets/images/flags/phillipines.png">
+      <img src="assets/images/flags/vietnam.webp">
+      <img src="assets/images/flags/switzerland.avif">
+      <img src="assets/images/flags/italy.avif">
+      <img src="assets/images/flags/iran.jpg">
+      <img src="assets/images/flags/pride.png">
+    </div>
+  </div>
 
         <div class="nav-scroller py-1 mb-3 border-bottom">
             <nav class="nav nav-underline justify-content-between">
@@ -314,63 +377,63 @@
                 <div class="students col-md-12">
                     <div class="row">
                         <div class="col-md-3">
-                            <h3>Aahil Makhani</h3>
-                            <h3>Aarav Bhojwani</h3>
-                            <h3>Adam Shafi</h3>
-                            <h3>Aditya Tandon</h3>
-                            <h3>Adrian Vega</h3>
-                            <h3>Albert Overington</h3>
-                            <h3>Alberto Orozco-Sos</h3>
-                            <h3>Aleena (Zoya) Shaikh</h3>
-                            <h3>Alexander Drew</h3>
-                            <h3>Anna Yi</h3>
-                            <h3>Asher Ray</h3>
-                            <h3>Asier Sagarzazu-Guedez</h3>
-                            <h3>Audrey Ahrar</h3>
-                            <h3>Austin Lloyd</h3>
-                            <h3>Baptiste Chazalnoel</h3>
+                            <h4>Aahil Makhani</h4>
+                            <h4>Aarav Bhojwani</h4>
+                            <h4>Adam Shafi</h4>
+                            <h4>Aditya Tandon</h4>
+                            <h4>Adrian Vega</h4>
+                            <h4>Albert Overington</h4>
+                            <h4>Alberto Orozco-Sos</h4>
+                            <h4>Aleena (Zoya) Shaikh</h4>
+                            <h4>Alexander Drew</h4>
+                            <h4>Anna Yi</h4>
+                            <h4>Asher Ray</h4>
+                            <h4>Asier Sagarzazu-Guedez</h4>
+                            <h4>Audrey Ahrar</h4>
+                            <h4>Austin Lloyd</h4>
+                            <h4>Baptiste Chazalnoel</h4>
                         </div>
 
                         <div class="col-md-3">
-                            <h3>Chanya Methaprayoon</h3>
-                            <h3>Charlie Richard</h3>
-                            <h3>Doruk Arikan</h3>
-                            <h3>Felix Peters</h3>
-                            <h3>Harry Hartley</h3>
-                            <h3>Hayden Roberts</h3>
-                            <h3>Henry Phillips</h3>
-                            <h3>Ishaan Gupta</h3>
-                            <h3>Jasper Merks</h3>
-                            <h3>Jovan Hebbar</h3>
-                            <h3>Justin Ahrar</h3>
-                            <h3>Kasey Roberts</h3>
-                            <h3>Leane Trapet</h3>
-                            <h3>Mark Yao</h3>
-                            <h3>Matias Rojas</h3>
-                            <h3>Maxime Elefteriou</h3>
+                            <h4>Chanya Methaprayoon</h4>
+                            <h4>Charlie Richard</h4>
+                            <h4>Doruk Arikan</h4>
+                            <h4>Felix Peters</h4>
+                            <h4>Harry Hartley</h4>
+                            <h4>Hayden Roberts</h4>
+                            <h4>Henry Phillips</h4>
+                            <h4>Ishaan Gupta</h4>
+                            <h4>Jasper Merks</h4>
+                            <h4>Jovan Hebbar</h4>
+                            <h4>Justin Ahrar</h4>
+                            <h4>Kasey Roberts</h4>
+                            <h4>Leane Trapet</h4>
+                            <h4>Mark Yao</h4>
+                            <h4>Matias Rojas</h4>
+                            <h4>Maxime Elefteriou</h4>
                         </div>
 
                         <div class="col-md-3">
-                            <h3>Michael Brokhin</h3>
-                            <h3>Miguel Torres</h3>
-                            <h3>Nishka Prasad</h3>
-                            <h3>Olivia Desjardins</h3>
-                            <h3>Preston Zhu</h3>
-                            <h3>Rafael Guerra</h3>
-                            <h3>Saahib Sarai</h3>
-                            <h3>Sahana Hebbar</h3>
-                            <h3>Sophia Shakourifar</h3>
-                            <h3>Thomas Elliott
-                            <h3>Vishakha Rao</h3>
-                            <h3>Zhihao (David) Cui</h3>
+                            <h4>Michael Brokhin</h4>
+                            <h4>Miguel Torres</h4>
+                            <h4>Nishka Prasad</h4>
+                            <h4>Olivia Desjardins</h4>
+                            <h4>Preston Zhu</h4>
+                            <h4>Rafael Guerra</h4>
+                            <h4>Saahib Sarai</h4>
+                            <h4>Sahana Hebbar</h4>
+                            <h4>Sophia Shakourifar</h4>
+                            <h4>Thomas Elliott
+                            <h4>Vishakha Rao</h4>
+                            <h4>Zhihao (David) Cui</h4>
                         </div>
                         <div class="students col-md-3">
-                            <h3>Xavier Eldridge</h3>
-                            <h3>Anton Truong</h3>
-                            <h3>Mentor Matthew</h3>
-                            <h3>Mentor Jacob</h3>
-                            <h3>Mentor Braden</h3>
-                            <h3>Mentor Esteban</h3>
+                            <h4>Xavier Eldridge</h4>
+                            <h4>Anton Truong</h4>
+                            <h4>Mentor Matthew</h4>
+                            <h4>Mentor Jacob</h4>
+                            <h4>Mentor Braden</h4>
+                            <h4>Mentor Esteban</h4>
                         </div>
 
                     </div>

@@ -78,10 +78,32 @@
         -webkit-overflow-scrolling: touch;
       }
 
-      #flags img
+      .marquee
       {
-        width: 171px;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      .marquee-content
+      {
+        display: flex;
+        width: max-content;
+        align-items: center;
+        gap: 5px;
+        animation: scroll 20s linear infinite;
+      }
+
+      .marquee-content img
+      {
         height: 90px;
+        width: auto;
+        flex: 0 0 auto;
+      }
+
+      @keyframes scroll 
+      {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
       }
 
       .btn-bd-primary {
@@ -202,31 +224,71 @@
     </div>
   </header>
 
-  <marquee id="flags" scrollamount="20">
-    <img src="assets/images/flags/usa.jpg">
-    <img src="assets/images/flags/india.avif">
-    <img src="assets/images/flags/poland.png">
-    <img src="assets/images/flags/uk.jpg">
-    <img src="assets/images/flags/syria.webp">
-    <img src="assets/images/flags/thailand.jpg">
-    <img src="assets/images/flags/canada.avif">
-    <img src="assets/images/flags/armenia.png">
-    <img src="assets/images/flags/china.png">
-    <img src="assets/images/flags/venezuela.avif">
-    <img src="assets/images/flags/spain.avif">
-    <img src="assets/images/flags/nether.png">
-    <img src="assets/images/flags/malaysia.jpg">
-    <img src="assets/images/flags/pakistan.png">
-    <img src="assets/images/flags/russia.png">
-    <img src="assets/images/flags/singapore.avif">
-    <img src="assets/images/flags/australia.png">
-    <img src="assets/images/flags/andorra.png">
-    <img src="assets/images/flags/southkorea.avif">
-    <img src="assets/images/flags/austria.png">
-    <img src="assets/images/flags/germany.avif">
-    <img src="assets/images/flags/colombia.png">
-    <img src="assets/images/flags/pride.png">
-  </marquee>
+  <div  class="marquee">
+    <div class="marquee-content">
+      <img src="assets/images/flags/usa.jpg">
+      <img src="assets/images/flags/india.avif">
+      <img src="assets/images/flags/poland.png">
+      <img src="assets/images/flags/uk.jpg">
+      <img src="assets/images/flags/syria.webp">
+      <img src="assets/images/flags/thailand.jpg">
+      <img src="assets/images/flags/canada.avif">
+      <img src="assets/images/flags/armenia.png">
+      <img src="assets/images/flags/china.png">
+      <img src="assets/images/flags/venezuela.avif">
+      <img src="assets/images/flags/spain.avif">
+      <img src="assets/images/flags/nether.png">
+      <img src="assets/images/flags/malaysia.jpg">
+      <img src="assets/images/flags/pakistan.png">
+      <img src="assets/images/flags/russia.png">
+      <img src="assets/images/flags/singapore.avif">
+      <img src="assets/images/flags/australia.png">
+      <img src="assets/images/flags/andorra.png">
+      <img src="assets/images/flags/southkorea.avif">
+      <img src="assets/images/flags/austria.png">
+      <img src="assets/images/flags/germany.avif">
+      <img src="assets/images/flags/colombia.png">
+      <img src="assets/images/flags/panama.webp">
+      <img src="assets/images/flags/argentina.png">
+      <img src="assets/images/flags/phillipines.png">
+      <img src="assets/images/flags/vietnam.webp">
+      <img src="assets/images/flags/switzerland.avif">
+      <img src="assets/images/flags/italy.avif">
+      <img src="assets/images/flags/iran.jpg">
+      <img src="assets/images/flags/pride.png">
+
+      <img src="assets/images/flags/usa.jpg">
+      <img src="assets/images/flags/india.avif">
+      <img src="assets/images/flags/poland.png">
+      <img src="assets/images/flags/uk.jpg">
+      <img src="assets/images/flags/syria.webp">
+      <img src="assets/images/flags/thailand.jpg">
+      <img src="assets/images/flags/canada.avif">
+      <img src="assets/images/flags/armenia.png">
+      <img src="assets/images/flags/china.png">
+      <img src="assets/images/flags/venezuela.avif">
+      <img src="assets/images/flags/spain.avif">
+      <img src="assets/images/flags/nether.png">
+      <img src="assets/images/flags/malaysia.jpg">
+      <img src="assets/images/flags/pakistan.png">
+      <img src="assets/images/flags/russia.png">
+      <img src="assets/images/flags/singapore.avif">
+      <img src="assets/images/flags/australia.png">
+      <img src="assets/images/flags/andorra.png">
+      <img src="assets/images/flags/southkorea.avif">
+      <img src="assets/images/flags/austria.png">
+      <img src="assets/images/flags/germany.avif">
+      <img src="assets/images/flags/colombia.png">
+      <img src="assets/images/flags/panama.webp">
+      <img src="assets/images/flags/argentina.png">
+      <img src="assets/images/flags/phillipines.png">
+      <img src="assets/images/flags/vietnam.webp">
+      <img src="assets/images/flags/switzerland.avif">
+      <img src="assets/images/flags/italy.avif">
+      <img src="assets/images/flags/iran.jpg">
+      <img src="assets/images/flags/pride.png">
+    </div>
+  </div>
 
   <div class="nav-scroller py-1 mb-3 border-bottom">
     <nav class="nav nav-underline justify-content-between">
