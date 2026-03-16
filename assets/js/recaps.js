@@ -1,7 +1,7 @@
 let days = 
 [
     0, 1, 3, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 31, 
-    32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61
+    32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62
 ];
 
 let day = days.length - 1;
@@ -23,9 +23,18 @@ function calcDate(date, days)
 async function loadRecap(day)
 {
     res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day 50-51.md`);
-    if(day != 51)
+    if(day == 51)
+    {
+        res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day 50-51.md`);
+    }
+    else if (day == 62)
+    {
+        res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day 62-64.md`);
+    }
+    else 
     {
         res = await fetch(`https://raw.githubusercontent.com/awtybots/awtybots.github.io/main/assets/recaps/Day ${day}.md`);
+
     }
     if(!res.ok) console.log('fetch failed');
 
@@ -40,7 +49,10 @@ function addPost(dayNum, text)
 
     const title = document.createElement('h2');
 
-    title.innerText =  (dayNum == 51) ? "Day 50-51" : `Day ${dayNum}`;
+    if(dayNum == 51) title.innerText =  "Day 50-51";
+    else if(dayNum == 62) title.innerText =  "Day 62-64";
+    else title.innerText = `Day ${dayNum}`;
+
     title.className = "display-5 link-body-emphasis mb-1";
     title.id = "recap-post";
     article.appendChild(title);
