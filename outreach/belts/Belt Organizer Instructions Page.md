@@ -7,6 +7,9 @@ What (Research): We looked around for some ideas and discovered 3005’s belt ho
 How (Modifications/Experimentation Phase): We decided to CAD our own version of belt organizers specifically for HTD belts, as we use those the most, and 3005’s was made for only GT2 belts. We also added a tab on the end to ensure the belts do not slide off.
 
 Instructions: Take our model CAD for a 160T 9mm Belt, and look at this data table to decide the length.   
+
+[CAD](https://cad.onshape.com/documents/516516e399420e20c9a163a4/w/baf87d573591ec3f00ce6b6e/e/7dd6dc89bcf243ce183f9532)
+
 When you change this dimension:
 
 ![OnShape Image 1](/outreach/belts/images/image12.png)
