@@ -43,7 +43,9 @@ const mandarin_documents = new Map(
 
 const french_documents = new Map(
     [
-        ['French_Mechanical.pdf', 'French Mechanical']
+        ['French_Mechanical.pdf', 'French Mechanical'],
+        ['French_Electrical.pdf', 'French Electrical'],
+        ['French_CAD.pdf', 'French CAD']
     ]
 );
 
