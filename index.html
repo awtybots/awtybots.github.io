@@ -131,7 +131,51 @@
         display: block !important;
       }
 
+      .gold-pulse {
+        background: linear-gradient(90deg, #b8860b, #ffd700, #fff2a8, #d4af37);
+        background-size: 300%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
 
+        animation: goldPulse 2s ease-in-out infinite;
+      }
+
+      @keyframes goldPulse {
+        0%, 100% {
+          background-position: 0% 50%;
+          opacity: 0.85;
+        }
+
+        50% {
+          background-position: 100% 50%;
+          opacity: 1;
+        }
+      }
+
+      .green-pulse {
+        background: linear-gradient(90deg, #43AB1A, #40BF22, #20E331, #00FF9D);
+        background-size: 300%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+
+        animation: greenPulse 2s ease-in-out infinite;
+      }
+
+      @keyframes greenPulse {
+        0%, 100% {
+          background-position: 0% 50%;
+          opacity: 0.85;
+        }
+
+        50% {
+          background-position: 100% 50%;
+          opacity: 1;
+        }
+      }
     </style>
 
     
@@ -296,7 +340,7 @@
   <div class="nav-scroller py-1 mb-3 border-bottom">
     <nav class="nav nav-underline justify-content-between">
       <!-- Remember to update this for the other pages! Yes, this entire website is manually written. No, I will not change that.-->
-      <a class="nav-item nav-link link-body-emphasis active" href="#">Home</a>
+      <a class="nav-item nav-link link-body-emphasis active green-pulse" href="#">Home</a>
       <a class="nav-item nav-link link-body-emphasis" href="robots.html">Robots</a>
       <a class="nav-item nav-link link-body-emphasis" href="recaps.html">Recaps</a>
       <!-- <a class="nav-item nav-link link-body-emphasis" href="#">Announcements</a> -->
@@ -304,7 +348,7 @@
       <!-- <a class="nav-item nav-link link-body-emphasis" href="programming.html">Programming</a> -->
       <!-- <a class="nav-item nav-link link-body-emphasis" href="https://frc-events.firstinspires.org/team/5829">Awards</a> -->
       <a class="nav-item nav-link link-body-emphasis" href="events.html">Events</a>
-      <a class="nav-item nav-link link-body-emphasis" href="outreach.html">Resources</a>
+      <a class="nav-item nav-link link-body-emphasis gold-pulse" href="outreach.html">Resources</a>
     </nav>
   </div>
 </div>
