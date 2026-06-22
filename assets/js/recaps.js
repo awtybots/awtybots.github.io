@@ -12,6 +12,45 @@ const backBtn = document.getElementById('back');
 const nextAllBtn = document.getElementById('next-all');
 const backAllBtn = document.getElementById('back-all');
 
+const pageText = document.getElementById("pages");
+
+pageText.addEventListener("keydown", async function(event) {
+    
+    if (event.key === "Enter") {
+        let num = pageText.value.trim();
+
+    if(num === "")
+    {
+        pageText.value = "";
+        return null;
+    }
+    const dayNumber = Number(num);
+
+    if(!Number.isFinite(dayNumber))
+    {
+        pageText.value = "";
+        return null;
+    }
+        for(let i = 0;i<days.length;++i)
+        {
+            if(days[i] >= dayNumber)
+            {
+                day = i;
+
+                nextBtn.disabled = false;
+                nextAllBtn.disabled = false;
+                dayNum = days[day];
+
+                text = await loadRecap(dayNum);
+
+                addPost(dayNum, text);
+                pageText.value = "";
+                break;
+            }
+        }
+    }
+});
+
 const post = document.getElementById("post");
 
 function calcDate(date, days)
