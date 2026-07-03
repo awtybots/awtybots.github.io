@@ -45,7 +45,8 @@ const french_documents = new Map(
     [
         ['French_Mechanical.pdf', 'French Mechanical'],
         ['French_Electrical.pdf', 'French Electrical'],
-        ['French_CAD.pdf', 'French CAD']
+        ['French_CAD.pdf', 'French CAD'],
+        ['8 Steps French.pdf', 'French YAGSL 8 Steps']
     ]
 );
 
