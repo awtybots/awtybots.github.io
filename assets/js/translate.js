@@ -17,7 +17,8 @@ const portuguese_documents = new Map(
 
 const arabic_documents = new Map(
     [
-        ['Arabic_Mechanical.pdf', 'Arabic Mechanical']
+        ['Arabic_Mechanical.pdf', 'Arabic Mechanical'],
+        ['8 Steps Arabic.pdf', 'Arabic YAGSL 8 Steps']
     ]
 );
 
