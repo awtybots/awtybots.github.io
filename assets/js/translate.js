@@ -11,7 +11,8 @@ const spanish_documents = new Map(
 
 const portuguese_documents = new Map(
     [
-        ['Portuguese_Mechanical.pdf', 'Portuguese Mechanical']
+        ['Portuguese_Mechanical.pdf', 'Portuguese Mechanical'],
+        ['Portuguese_8_Steps.pdf', 'Portuguese YAGSL 8 Steps']
     ]
 );
 
@@ -56,6 +57,13 @@ const japanese_documents = new Map(
         ['Japanese_Mechanical.pdf', 'Japanese Mechanical'],
         ['Japanese_Electrical.pdf', 'Japanese Electrical'],
         ['Japanese_CAD.pdf', 'Japanese CAD']
+    ]
+);
+
+const telugu_documents = new Map(
+    [
+        ['Telugu_Mechanical.pdf', 'Telugu Mechanical'],
+        ['Telugu_8_Steps.pdf', 'Telugu YAGSL 8 Steps']
     ]
 );
 
@@ -140,6 +148,9 @@ languageDropdown.addEventListener('change', (event) =>
             break;
         case 'Japanese':
             documents_to_iterate = japanese_documents;
+            break;
+        case 'Telugu':
+            documents_to_iterate = telugu_documents;
             break;
     }
 
