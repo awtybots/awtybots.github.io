@@ -5,14 +5,18 @@ const spanish_documents = new Map(
     [
         ['Spanish_Mechanical_Electrical_1.pdf', 'Spanish Mechanical'],
         ['Spanish_CAD.pdf', 'Spanish CAD'],
-        ['Spanish_Electrical.pdf', 'Spanish Electrical']
+        ['Spanish_Electrical.pdf', 'Spanish Electrical'],
+        ['Spanish - Deploy and drive.pdf', 'Spanish Deploy and Drive'],
+        ['Spanish - Use a Custom Gyro.pdf', 'Spanish Use a Custom Gyro'],
+        ['Spanish - Your First Swerve Robot.pdf', 'Spanish Your First Swerve Robot']
     ]
 );
 
 const portuguese_documents = new Map(
     [
         ['Portuguese_Mechanical.pdf', 'Portuguese Mechanical'],
-        ['Portuguese_8_Steps.pdf', 'Portuguese YAGSL 8 Steps']
+        ['Portuguese_8_Steps.pdf', 'Portuguese YAGSL 8 Steps'],
+        ['Portuguese - Your First Swerve Robot.pdf', 'Portuguese Your First Swerve Robot']
     ]
 );
 
@@ -39,7 +43,8 @@ const thai_documents = new Map(
 const mandarin_documents = new Map(
     [
         ['Mandarin_Mechanical.pdf', 'Mandarin Mechanical'],
-        ['Mandarin_Electrical.pdf', 'Mandarin Electrical']
+        ['Mandarin_Electrical.pdf', 'Mandarin Electrical'],
+        ['Mandarin - Your First Swerve Robot.pdf', 'Mandarin Your First Swerve Robot'],
     ]
 );
 
@@ -48,7 +53,13 @@ const french_documents = new Map(
         ['French_Mechanical.pdf', 'French Mechanical'],
         ['French_Electrical.pdf', 'French Electrical'],
         ['French_CAD.pdf', 'French CAD'],
-        ['8 Steps French.pdf', 'French YAGSL 8 Steps']
+        ['8 Steps French.pdf', 'French YAGSL 8 Steps'],
+        ['French - Deploy and drive.pdf', 'French Deploy and Drive'],
+        ['French - Your First Swerve Robot.pdf', 'French Your First Swerve Robot'],
+        ['French - Tune PIDF Gains.pdf', 'French Tune PIDF Gains'],
+        ['French - Set up PathPlanner.pdf', 'French Set up PathPlanner'],
+        ['French - Generate your Configuration.pdf', 'French Generate your Configuration'],
+        ['French - Gather your robot information.pdf', 'French Gather your Robot Info']
     ]
 );
 
@@ -64,6 +75,19 @@ const telugu_documents = new Map(
     [
         ['Telugu_Mechanical.pdf', 'Telugu Mechanical'],
         ['Telugu_8_Steps.pdf', 'Telugu YAGSL 8 Steps']
+    ]
+);
+
+const german_documents = new Map(
+    [
+        ['German - Your First Swerve Robot.pdf', 'German Your First Swerve Robot']
+    ]
+);
+
+const dutch_documents = new Map(
+    [
+        ['Dutch - Your First Swerve Robot.pdf', 'Dutch Your First Swerve Robot'],
+        ['Dutch - Gather your robot information.pdf', 'Dutch Gather your Robot Info']
     ]
 );
 
@@ -151,6 +175,12 @@ languageDropdown.addEventListener('change', (event) =>
             break;
         case 'Telugu':
             documents_to_iterate = telugu_documents;
+            break;
+        case 'German':
+            documents_to_iterate = german_documents;
+            break;
+        case 'Dutch':
+            documents_to_iterate = dutch_documents;
             break;
     }
 
